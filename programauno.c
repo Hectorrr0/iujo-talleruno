@@ -51,4 +51,10 @@ int main() {
     scanf("%d", &cliente.refrescosDetal);
     printf("Ingrese la cantidad de maltas al detal: ");
     scanf("%d", &cliente.maltasDetal);
+    
+    /*MONTO TOTAL PA PAGAR*/
+    
+    float totalPagar = calcularTotal(cliente);
+
+    printf("\nTotal a pagar por %s (%s): $%.2f\n", cliente.razonSocial, cliente.cedula, totalPagar);
 }
