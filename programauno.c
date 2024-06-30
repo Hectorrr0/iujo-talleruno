@@ -57,4 +57,10 @@ int main() {
     float totalPagar = calcularTotal(cliente);
 
     printf("\nTotal a pagar por %s (%s): $%.2f\n", cliente.razonSocial, cliente.cedula, totalPagar);
+    
+    /*INTEGRANTES DEL EQUIPASO*/
+    
+    printf("\nIntegrantes:\nJorge Pina\nJhosnar Ereu\nHector Godoy\n");
+    
+    return 0;
 }
