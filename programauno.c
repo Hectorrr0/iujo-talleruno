@@ -34,6 +34,11 @@ float calcularTotal(Cliente cliente) {
 
 
 int main() {
-	
+	Cliente cliente;
+
+    //Datos del cliente
+    printf("Ingrese la razon social: ");
+    fgets(cliente.razonSocial, 100, stdin);
+    cliente.razonSocial[strcspn(cliente.razonSocial, "\n")] = '\0'; // quitar el salto de línea
 	return 0;
 }
