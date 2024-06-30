@@ -45,5 +45,10 @@ int main() {
     fgets(cliente.cedula, 20, stdin);
     cliente.cedula[strcspn(cliente.cedula, "\n")] = '\0'; // quitar el salto de línea
 	
+	/*CANTIDAD DE REFRESCOS Y MALTAS*/
 	
+	printf("Ingrese la cantidad de refrescos al detal: ");
+    scanf("%d", &cliente.refrescosDetal);
+    printf("Ingrese la cantidad de maltas al detal: ");
+    scanf("%d", &cliente.maltasDetal);
 }
